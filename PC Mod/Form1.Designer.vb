@@ -42,11 +42,11 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(4, 2)
+        Me.Label1.Location = New System.Drawing.Point(2, 2)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(87, 30)
+        Me.Label1.Size = New System.Drawing.Size(130, 30)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "PC Mod"
+        Me.Label1.Text = "PC Mod v0.1"
         '
         'CheckBox1
         '
@@ -82,16 +82,16 @@ Partial Class Form1
         Me.CheckBox3.AutoSize = True
         Me.CheckBox3.Location = New System.Drawing.Point(9, 196)
         Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(89, 19)
+        Me.CheckBox3.Size = New System.Drawing.Size(122, 19)
         Me.CheckBox3.TabIndex = 4
-        Me.CheckBox3.Text = "Dark Theme"
+        Me.CheckBox3.Text = "Enable Dark Mode"
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(7, 56)
+        Me.Label2.Location = New System.Drawing.Point(19, 56)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(91, 21)
         Me.Label2.TabIndex = 5
@@ -101,7 +101,7 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(5, 172)
+        Me.Label3.Location = New System.Drawing.Point(16, 172)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(94, 21)
         Me.Label3.TabIndex = 6
@@ -131,7 +131,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(4, 270)
+        Me.Label4.Location = New System.Drawing.Point(12, 270)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(51, 21)
         Me.Label4.TabIndex = 9
@@ -142,9 +142,9 @@ Partial Class Form1
         Me.CheckBox6.AutoSize = True
         Me.CheckBox6.Location = New System.Drawing.Point(9, 294)
         Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(47, 19)
+        Me.CheckBox6.Size = New System.Drawing.Size(123, 19)
         Me.CheckBox6.TabIndex = 10
-        Me.CheckBox6.Text = "WIP"
+        Me.CheckBox6.Text = "Remove Telemetry"
         Me.CheckBox6.UseVisualStyleBackColor = True
         '
         'Button2
@@ -168,6 +168,7 @@ Partial Class Form1
         '
         'ComboBox1
         '
+        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Report A Bug", "Request A Feature", "Need Help"})
@@ -175,7 +176,6 @@ Partial Class Form1
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(130, 23)
         Me.ComboBox1.TabIndex = 13
-        Me.ComboBox1.Text = "None Selected"
         '
         'Form1
         '
@@ -196,7 +196,10 @@ Partial Class Form1
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label1)
+        Me.MaximizeBox = False
         Me.Name = "Form1"
+        Me.Opacity = 0.91R
+        Me.ShowIcon = False
         Me.Text = "PC Mod"
         Me.ResumeLayout(False)
         Me.PerformLayout()
