@@ -159,10 +159,10 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(282, 2)
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI Light", 12.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.Label5.Location = New System.Drawing.Point(293, 2)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(130, 21)
+        Me.Label5.Size = New System.Drawing.Size(128, 23)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "Reporting / Help"
         '
@@ -171,7 +171,7 @@ Partial Class Form1
         Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Report A Bug", "Request A Feature", "Need Help"})
-        Me.ComboBox1.Location = New System.Drawing.Point(282, 37)
+        Me.ComboBox1.Location = New System.Drawing.Point(291, 28)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(130, 23)
         Me.ComboBox1.TabIndex = 13
